@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Study Bar Webite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <img src="thestudybarlogo.png" alt="The Study Bar Logo" width="70" class="main-logo">
+            <h1>The Study Bar</h1>
+            <p>Values creativity, curiosity and lifelong learning.</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+   <main class="contact-page">
+
+    <h2 class="page-title">Contact The Study Bar</h2>
+
+    <p class="contact-intro">
+        Questions about study reservations, events or group seating?
+        Send us a message and somebody from the cafe team should get back
+        within a day or two.
+    </p>
+
+    <!-- basic contact form -->
+    <form class="studybar-contact-form">
+
+        <div class="input-row">
+            <label for="studentName">Name</label>
+
+            <input
+                type="text"
+                id="studentName"
+                name="studentName"
+                placeholder="ex: Jamie Rivera"
+                required
+            >
+        </div>
+
+        <div class="input-row">
+
+            <label for="studentEmail">Email</label>
+
+            <input
+                type="email"
+                id="studentEmail"
+                name="studentEmail"
+                placeholder="youremail@email.com"
+                required
+            >
+        </div>
+
+        <!-- thought about adding phone number too but probably unnecessary -->
+        <div class="input-row">
+            <label for="studyMessage">Message</label>
+
+            <textarea
+                id="studyMessage"
+                name="studyMessage"
+                rows="6"
+                placeholder="Ask about tutoring nights, reservations, study groups, etc."
+                required
+            ></textarea>
+        </div>
+
+        <button type="submit" class="contact-send-btn">
+            Send Message
+        </button>
+
+    </form>
+
+    <!-- contact details section -->
+    <section class="extra-contact-info">
+
+        <h3>Study Bar Info</h3>
+
+        <p>
+            <strong>Email:</strong>
+            hello@thestudybar.com
+        </p>
+
+        <p>
+            <strong>Hours:</strong>
+            Mon - Sat | 7:00 AM - 10:00 PM
+        </p>
+
+        <p>
+            <strong>Group Seating:</strong>
+            Available during weekdays unless finals week destroys everything again.
+        </p>
+
+    </section>
+
+</main>
+
+    <footer>
+        <p>&copy; 2026 Briesah Leyba | The Study Bar</p>
+    </footer>
+
+</body>
+</html>
